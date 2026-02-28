@@ -31,10 +31,10 @@ const Footer = () => {
             >
               <FaFacebookF />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/amira_ye7ia?igsh=eGppbmltYmZydWt0">
               <FaInstagram />
             </a>
-            <a href="#">
+            <a href="https://wa.me/+201278513843">
               <FaWhatsapp />
             </a>
             <a
@@ -101,7 +101,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Scroll to Top Button */}
+      {/* Scroll to Top Button  */}
       <button className="scroll-top" onClick={scrollToTop}>
         <FaArrowUp />
       </button>

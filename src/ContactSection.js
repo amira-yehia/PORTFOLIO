@@ -33,10 +33,13 @@ const ContactSection = () => {
           >
             <FaFacebookF />
           </a>
-          <a href="#" className="social-box instagram">
+          <a
+            href="https://www.instagram.com/amira_ye7ia?igsh=eGppbmltYmZydWt0"
+            className="social-box instagram"
+          >
             <FaInstagram />
           </a>
-          <a href="#" className="social-box whatsapp">
+          <a href="https://wa.me/+201278513843" className="social-box whatsapp">
             <FaWhatsapp />
           </a>
           <a

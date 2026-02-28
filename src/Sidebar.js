@@ -1,12 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./index.css"; // اتأكدي إن ملف الـ CSS موجود
+import "./index.css";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const sidebarRef = useRef(null);
   const toggleBtnRef = useRef(null);
 
-  // منطق إغلاق السايد بار عند الضغط بالخارج أو السكرول
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (
@@ -34,7 +33,6 @@ const Sidebar = () => {
 
   return (
     <>
-      {/* زرار لفتح السايد بار (بيظهر في الموبايل غالباً) */}
       <button
         ref={toggleBtnRef}
         className="sidebar-toggle"
@@ -47,7 +45,6 @@ const Sidebar = () => {
         <h1 className="logo">Amira Yehia</h1>
 
         <nav className="nav-menu">
-          {/* الربط باستخدام الـ IDs الصحيحة */}
           <a
             href="#intro"
             className="nav-item"

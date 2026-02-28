@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaEye, FaReact, FaNodeJs, FaAws } from "react-icons/fa";
-import { SiTypescript, SiSocketdotio, SiTailwindcss } from "react-icons/si";
+import { SiTypescript, SiSocketdotio } from "react-icons/si";
 
 const projects = [
   {

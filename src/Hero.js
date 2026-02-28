@@ -64,10 +64,10 @@ const HeroSection = () => {
           >
             <FaLinkedin />
           </a>
-          <a href="#" className="icon gmail">
+          <a href="##" className="icon gmail">
             <FaEnvelope />
           </a>
-          <a href="#" className="icon whatsapp">
+          <a href="https://wa.me/+201278513843" className="icon whatsapp">
             <FaWhatsapp />
           </a>
           <a href="https://github.com/amira-yehia" className="icon github">
